@@ -12,7 +12,6 @@
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
-
 }
 
 body {
@@ -20,7 +19,6 @@ body {
 	font-size: 1.65rem;
 	color: $white;
 	background-color: $dark;
-
 }
 
 h1.company-name {
@@ -510,12 +508,11 @@ h1.company-name {
 //footer
 .footer {
 	color: $white;
-	background-image:
-  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),url('./img/footer_image.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('./img/footer_image.jpg');
 	filter: grayscale(50%);
-    background-size: cover;
-    background-position-y: -100%;
-    background-attachment: fixed;
+	background-size: cover;
+	background-position-y: -100%;
+	background-attachment: fixed;
 
 	.wrapper {
 		padding: 6em 2em 2em;
