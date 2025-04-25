@@ -310,7 +310,7 @@ h1.company-name {
   transition: clip-path 0.8s, -webkit-clip-path 0.8s;
 }
 .aboutus__cards__person-card .profil-name {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 20px;
   color: #dddddd;
 }
