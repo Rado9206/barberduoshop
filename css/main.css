@@ -276,7 +276,7 @@ h1.company-name {
 }
 .aboutus__cards__person-card button {
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
   padding: 10px;
   background: none;
@@ -469,7 +469,7 @@ h1.company-name {
 
 .footer {
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../img/footer_image.jpg");
+  background-color: #111;
   filter: grayscale(50%);
   background-size: cover;
   background-position: top;
@@ -610,6 +610,9 @@ h1.company-name {
   }
   .contact__form-btn {
     grid-row: 3/4;
+  }
+  .footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../img/footer_image.jpg");
   }
   .footer__boxes {
     display: flex;
