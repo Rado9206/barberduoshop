@@ -310,9 +310,12 @@ h1.company-name {
   transition: clip-path 0.8s, -webkit-clip-path 0.8s;
 }
 .aboutus__cards__person-card .profil-name {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
   color: #dddddd;
+}
+.aboutus__cards__person-card p {
+  font-size: 1.5rem;
 }
 
 .services {
@@ -735,6 +738,14 @@ h1.company-name {
     padding: 0 2em;
     max-width: 400px;
     height: 60vh;
+  }
+  .aboutus__cards__person-card .profil-name {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #dddddd;
+  }
+  .aboutus__cards__person-card p {
+    font-size: 2rem;
   }
   .services {
     padding: 8em 2em;
