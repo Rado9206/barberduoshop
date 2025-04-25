@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>DuoBarber Shop</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <button class="hamburger hamburger--slider" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <!-- 2 navs for mobile and for desktop -->
+
+        <nav class="nav nav-mobile">
+            <a class="nav__link" href="#aboutus">O nas</a>
+            <a class="nav__link" href="#services">Usługi</a>
+            <a class="nav__link" href="#contact">Kontakt</a>
+        </nav>
+        <nav class="nav nav-desktop">
+            <a class="nav__link" href="#"><img src="img/icons/scissors.svg" alt="" class=""></a>
+            <a class="nav__link" href="#aboutus">O nas</a>
+            <a class="nav__link" href="#services">Usługi</a>
+            <a class="nav__link" href="#contact">Kontakt</a>
+        </nav>
+
+
+        <div class="header__text">
+            <h1 class="company-name">DuoBarber Shop</h1>
+            <p>Twój lokalny barber</p>
+        </div>
+
+        <div class="header__img">
+            <div class="header__shadow"></div>
+        </div>
+
+        <a href="#cards">
+            <div class="header__arrow">
+                <img class="header__arrow-icon" src="img/icons/arrow-down.svg" alt="">
+            </div>
+        </a>
+
+        <img class="header__bg-icon-one" src="img/icons/scissors.svg" alt="">
+        <img class="header__bg-icon-two" src="img/icons/scissors.svg" alt="">
+
+        <!-- arrow and scissors.svgs are only decoration. Attribute alt should be empty.-->
+
+    </header>
+
+    <main class="main">
+
+        <section class="cards" id="cards">
+
+            <div class="wrapper">
+
+                <div class="cards__box">
+
+                    <div class="cards__card cards__card--one">
+                        <img src="img/icons/trending-up.svg" alt="">
+
+                        <h3>Trendy</h3>
+                        <p>Jesteśmy na bieżąco z najnowszymi trendami. Inspirujemy się najlepszymi na świecie.</p>
+                    </div>
+                    <div class="cards__card cards__card--two">
+                        <img src="img/icons/award.svg" alt="">
+
+                        <h3>Numer 1</h3>
+                        <p>Najlepsza nowa firma roku 2023 wg Tygodnika Powszechnego.</p>
+                    </div>
+                    <div class="cards__card cards__card--three">
+                        <img src="img/icons/star.svg" alt="">
+
+                        <h3>Najlepsi w mieście</h3>
+                        <p>Najlepsza średnia ocen wśród barberów wg Google Maps</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="wrapper">
+            <section class="aboutus" id="aboutus">
+
+                <h2 class="section-title"><span>O nas</span></h2>
+
+
+                <div class="aboutus__cards">
+
+                    <div class="aboutus__cards__person-card one">
+                        <button><img src="/img/icons/help-circle.svg" alt=""></button>
+                        <div class="text">
+                            <h2 class="profil-name">Peter</h2>
+                            <p>Broda to jego specjalność – precyzyjne strzyżenie, ostre kontury i modelowanie na
+                                najwyższym poziomie. W Combo łączy to z dopracowaną fryzurą i pigmentacją brody, by
+                                podkreślić Twój styl i charakter. Peter to perfekcjonista – zadba o każdy szczegół,
+                                żebyś wyszedł z fotela zadowolony i pewny siebie.</p>
+                        </div>
+                    </div>
+
+                    <div class="aboutus__cards__person-card two">
+                        <button><img src="/img/icons/help-circle.svg" alt=""></button>
+                        <div class="text">
+                            <h2 class="profil-name">Sonia</h2>
+                            <p>Fryzury to jej pasja – od klasyki po nowoczesne cięcia. Sonia potrafi świetnie doradzić,
+                                dopasować fryzurę do rysów twarzy i zadbać o stylizację, która utrzyma się na dłużej.
+                                Spokojna ręka, dobry gust i świetne wyczucie trendów sprawiają, że każdy wychodzi od
+                                niej z uśmiechem i świeżym lookiem.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <div class="wrapper">
+            <section class="services" id="services">
+
+                <div class="services-title">
+                    <h2 class="section-title"><span>Usługi</span></h2>
+                </div>
+                <div class="services__boxes">
+
+                    <div class="services__box">
+                        <img src="./img/services/hairs.jpg" alt="Banknotes" class="services__box-img">
+
+                        <h3 class="services__box-title">Strzyżenie włosów</h3>
+
+                        <p class="services__box-text">Strzyżenie dla facetów od 10. roku życia wzwyż – klasyka,
+                            nowoczesność, coś pomiędzy? Ty wybierasz, my ogarniamy. Stylizacja dopasowana do Twojej
+                            głowy i charakteru. </p>
+                        <p class="services__box-text">Chcesz, to dorzucimy mycie – relaks i świeżość w pakiecie.
+                            Wpadasz, siadasz, a my robimy z Ciebie nowego człowieka (albo przynajmniej sprawiamy, że
+                            czujesz się lepiej w lustrze).</p>
+                        <a href="#" class="services__box-link">Czytaj dalej...</a>
+                    </div>
+
+                    <div class="services__box">
+                        <img src="./img/services/bread.jpg" alt="Diamonds" class="services__box-img">
+
+                        <h3 class="services__box-title">Strzyżenie brody</h3>
+
+                        <p class="services__box-text">Twoja broda, Twoje zasady – my tylko pomagamy nadać jej idealny
+                            kształt. Strzyżenie, konturowanie brzytwą albo golarką, wszystko pod linijkę. Do tego
+                            modelowanie, żeby trzymała fason przez cały dzień.</p>
+                        <p class="services__box-text">Nieważne, czy nosisz ją krótko, na drwala czy elegancko –
+                            ogarniemy temat tak, żebyś wychodził zadowolony.</p>
+                        <a href="#" class="services__box-link">Czytaj dalej...</a>
+                    </div>
+
+                    <div class="services__box">
+                        <img src="./img/services/combo.jpg" alt="Sztabki złota" class="services__box-img">
+
+                        <h3 class="services__box-title">Combo + pigmentacja brody</h3>
+
+                        <p class="services__box-text">Pełen pakiet dla tych, którzy chcą ogarnąć się od A do Z.
+                            Strzyżenie włosów i brody w jednym podejściu, a do tego pigmentacja brody – lekka
+                            koloryzacja, która podkreśli kształt i doda wyrazistości. </p>
+                        <p class="services__box-text">Idealna opcja, jeśli chcesz odświeżyć look albo po prostu poczuć
+                            się bardziej „zrobiony”. Zero przypadkowości – wszystko przemyślane i dopasowane.</p>
+                        <a href="#" class="services__box-link">Czytaj dalej...</a>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <section class="newsletter">
+            <div class="wrapper newsletter__wrapper">
+                <div class="newsletter__text">
+                    <p>Zapisz się na nasz newsletter...</p>
+                </div>
+
+                <div class="newsletter__form">
+                    <input type="text">
+                    <button>Wyślij</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2 class="section-title"><span>Kontakt</span></h2>
+
+
+                <form class="contact__form">
+
+                    <div class="contact__form-box">
+                        <label for="name">Imię i nazwisko:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="contact__form-box">
+                        <label for="name">Email:</label>
+                        <input type="email" id="mail" required>
+                    </div>
+                    <div class="contact__form-box">
+                        <label for="msg">Wiadomość:</label>
+                        <textarea id="msg" cols="30" rows="10"></textarea required>
+                    </div>
+
+                    <button type="submit" class="contact__form-btn">Wyślij</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="wrapper">
+
+            <div class="footer__boxes">
+
+                <div class="footer__box">
+                    <h3 class="footer__box-title"> <i class="fas fa-kiwi-bird"></i> DuoBarber Shop sp. z o.o </h3>
+                    <p>To nie tylko barber – to miejsce, gdzie styl spotyka luz. Wpadniesz po cięcie, a wyjdziesz z nową
+                        energią. Każdy szczegół jest tu ważny – od precyzyjnej brody po idealnie dobraną fryzurę.
+                        Pracują tu pasjonaci: Sonia ogarnia włosy, Peter rządzi w świecie brody. Klimat? Bez spiny, ale
+                        zawsze na poziomie.</p>
+                    <div class="footer__box-social">
+                        <a href="#" class="footer__box-link"><img src="./img/social/facebook.svg" alt=""></a>
+                        <a href="#" class="footer__box-link"><img src="./img/social/instagram.svg" alt=""></a>
+                        <a href="#" class="footer__box-link"><img src="./img/social/twitter.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">Kontakt</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">+48 000 000 000</a></li>
+                        <li class="footer__box-list-item"><a href="#">kontak@duobarber.com</a></li>
+                        <li class="footer__box-list-item"><a href="#">What's App</a></li>
+                        <li class="footer__box-list-item"><a href="#">Telegram</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">O firmie</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="/index.html#aboutus">O nas</a></li>
+                        <li class="footer__box-list-item"><a href="index.html#services">Usługi</a></li>
+                        <li class="footer__box-list-item"><a href="#">Kariera</a></li>
+                        <li class="footer__box-list-item"><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+        <hr>
+        <p class="footer__bottom-text"> &copy; 2024 - <span class="footer__year"></span> DuoBarber Shop</p>
+
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
