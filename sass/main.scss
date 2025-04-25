@@ -264,12 +264,12 @@ h1.company-name {
 		width: 100%;
 
 		.one {
-			background-image: url('/img/person-card/peter.jpg');
+			background-image: url('./img/person-card/peter.jpg');
 			filter: grayscale(50%);
 		}
 
 		.two {
-			background-image: url('/img/person-card/sonia.jpg');
+			background-image: url('./img/person-card/sonia.jpg');
 		}
 
 		&__person-card {
@@ -511,7 +511,7 @@ h1.company-name {
 .footer {
 	color: $white;
 	background-image:
-  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),url('/img/footer_image.jpg');
+  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),url('./img/footer_image.jpg');
 	filter: grayscale(50%);
     background-size: cover;
     background-position-y: -100%;
