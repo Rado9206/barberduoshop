@@ -255,11 +255,11 @@ h1.company-name {
   width: 100%;
 }
 .aboutus__cards .one {
-  background-image: url("/img/person-card/peter.jpg");
+  background-image: url("../img/person-card/peter.jpg");
   filter: grayscale(50%);
 }
 .aboutus__cards .two {
-  background-image: url("/img/person-card/sonia.jpg");
+  background-image: url("../img/person-card/sonia.jpg");
 }
 .aboutus__cards__person-card {
   position: relative;
@@ -283,7 +283,7 @@ h1.company-name {
   border: none;
   color: #ffffff;
   font-size: 36px;
-  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
   cursor: pointer;
   z-index: 1;
 }
@@ -301,10 +301,10 @@ h1.company-name {
   left: 0;
   right: 0;
   padding: 80px 30px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #dddddd;
-  -webkit-clip-path: circle(0% at 50% 90%);
-          clip-path: circle(0% at 50% 90%);
+  -webkit-clip-path: circle(0% at 90% 90%);
+          clip-path: circle(0% at 90% 90%);
   transition: -webkit-clip-path 0.8s;
   transition: clip-path 0.8s;
   transition: clip-path 0.8s, -webkit-clip-path 0.8s;
@@ -466,10 +466,10 @@ h1.company-name {
 
 .footer {
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("/img/footer_image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../img/footer_image.jpg");
   filter: grayscale(50%);
   background-size: cover;
-  background-position-y: -100%;
+  background-position: top;
   background-attachment: fixed;
 }
 .footer .wrapper {
