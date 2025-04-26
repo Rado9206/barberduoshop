@@ -563,6 +563,11 @@ h1.company-name {
 		padding: 2em;
 		text-align: center;
 	}
+
+	&__name-link {
+		text-decoration: none;
+		color: $white;
+	}
 }
 
 @import './small';

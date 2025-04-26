@@ -515,6 +515,10 @@ h1.company-name {
   padding: 2em;
   text-align: center;
 }
+.footer__name-link {
+  text-decoration: none;
+  color: #fff;
+}
 
 @media (min-width: 576px) {
   .services {
