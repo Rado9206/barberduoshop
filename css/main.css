@@ -478,6 +478,12 @@ h1.company-name {
 .footer .wrapper {
   padding: 6em 2em 2em;
 }
+.footer a {
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #b9441a;
+}
 .footer__box {
   font-size: 1.4rem;
 }
@@ -503,7 +509,7 @@ h1.company-name {
   padding-left: 0;
 }
 .footer__box-link:hover {
-  color: #fff;
+  color: #b9441a;
 }
 .footer__bottom-text {
   padding: 2em;
