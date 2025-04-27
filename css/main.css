@@ -469,11 +469,7 @@ h1.company-name {
 
 .footer {
   color: #fff;
-  background-color: #111;
-  filter: grayscale(50%);
-  background-size: cover;
-  background-position: top;
-  background-attachment: fixed;
+  background-color: #191919;
 }
 .footer .wrapper {
   padding: 6em 2em 2em;
@@ -623,6 +619,10 @@ h1.company-name {
   }
   .footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../img/footer_image.jpg");
+    filter: grayscale(50%);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
   }
   .footer__boxes {
     display: flex;

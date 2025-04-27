@@ -76,6 +76,10 @@
 
 	.footer {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('../img/footer_image.jpg');
+		filter: grayscale(50%);
+		background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
 		&__boxes {
 			display: flex;
 			justify-content: space-between;

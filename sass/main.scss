@@ -512,11 +512,8 @@ h1.company-name {
 //footer
 .footer {
 	color: $white;
-	background-color: #111;
-	filter: grayscale(50%);
-	background-size: cover;
-	background-position: top;
-	background-attachment: fixed;
+	background-color: $darker;
+
 
 	.wrapper {
 		padding: 6em 2em 2em;
