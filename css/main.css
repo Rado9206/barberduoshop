@@ -751,15 +751,14 @@ h1.company-name {
   .aboutus__cards__person-card {
     padding: 0 5em;
     max-width: 400px;
-    height: 60vh;
   }
   .aboutus__cards__person-card .profil-name {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
     color: #dddddd;
   }
   .aboutus__cards__person-card p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .services {
     padding: 8em 2em;
