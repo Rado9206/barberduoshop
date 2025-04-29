@@ -252,7 +252,6 @@ h1.company-name {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 .aboutus__cards .one {
   background-image: url("../img/person-card/peter.jpg");
@@ -263,10 +262,12 @@ h1.company-name {
 }
 .aboutus__cards__person-card {
   position: relative;
+  box-sizing: border-box;
   margin: 2rem;
-  height: 50vh;
-  width: 45%;
+  max-width: 45%;
   min-width: 300px;
+  height: auto;
+  aspect-ratio: 9/16;
   text-align: center;
   background-position: center;
   background-size: cover;
@@ -748,7 +749,7 @@ h1.company-name {
     padding: 8em 2em;
   }
   .aboutus__cards__person-card {
-    padding: 0 2em;
+    padding: 0 5em;
     max-width: 400px;
     height: 60vh;
   }
