@@ -289,8 +289,8 @@ h1.company-name {
   z-index: 1;
 }
 .aboutus__cards__person-card button:hover ~ .text {
-  -webkit-clip-path: circle(250% at 90% 90%);
-          clip-path: circle(250% at 90% 90%);
+  -webkit-clip-path: circle(250% at 90% 9%);
+          clip-path: circle(250% at 90% 9%);
 }
 .aboutus__cards__person-card .text {
   display: flex;
@@ -304,8 +304,8 @@ h1.company-name {
   padding: 80px 30px;
   background-color: rgba(0, 0, 0, 0.8);
   color: #dddddd;
-  -webkit-clip-path: circle(0% at 90% 90%);
-          clip-path: circle(0% at 90% 90%);
+  -webkit-clip-path: circle(0% at 90% 9%);
+          clip-path: circle(0% at 90% 9%);
   transition: -webkit-clip-path 0.8s;
   transition: clip-path 0.8s;
   transition: clip-path 0.8s, -webkit-clip-path 0.8s;

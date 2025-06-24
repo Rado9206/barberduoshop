@@ -276,7 +276,6 @@ h1.company-name {
 			max-width: 45%;
 			min-width: 300px;
 			height: auto;
-			//min-height: 400px;
 			aspect-ratio: 9 / 16;
 			text-align: center;
 			background-position: center;
@@ -300,7 +299,7 @@ h1.company-name {
 			}
 
 			button:hover ~ .text {
-				clip-path: circle(250% at 90% 90%);
+				clip-path: circle(250% at 90% 9%);
 			}
 
 			.text {
@@ -315,7 +314,7 @@ h1.company-name {
 				padding: 80px 30px;
 				background-color: rgba(0, 0, 0, 0.8);
 				color: #dddddd;
-				clip-path: circle(0% at 90% 90%);
+				clip-path: circle(0% at 90% 9%);
 				transition: clip-path 0.8s;
 			}
 
