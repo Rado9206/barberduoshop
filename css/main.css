@@ -244,7 +244,7 @@ h1.company-name {
 }
 
 .aboutus {
-  padding: 6em 2em;
+  padding: 4em 1.5em;
   overflow: auto;
 }
 .aboutus__cards {
@@ -263,15 +263,15 @@ h1.company-name {
 .aboutus__cards__person-card {
   position: relative;
   box-sizing: border-box;
-  margin: 2rem;
+  margin: 2rem 5em;
   max-width: 45%;
   min-width: 300px;
   height: auto;
-  aspect-ratio: 9/16;
+  aspect-ratio: 8/16;
   text-align: center;
   background-position: center;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 5px, 5px, 10px rgba(0, 0, 0, 0.7);
 }
@@ -289,8 +289,7 @@ h1.company-name {
   z-index: 1;
 }
 .aboutus__cards__person-card button:hover ~ .text {
-  -webkit-clip-path: circle(250% at 90% 9%);
-          clip-path: circle(250% at 90% 9%);
+  clip-path: circle(250% at 90% 9%);
 }
 .aboutus__cards__person-card .text {
   display: flex;
@@ -304,11 +303,8 @@ h1.company-name {
   padding: 80px 30px;
   background-color: rgba(0, 0, 0, 0.8);
   color: #dddddd;
-  -webkit-clip-path: circle(0% at 90% 9%);
-          clip-path: circle(0% at 90% 9%);
-  transition: -webkit-clip-path 0.8s;
+  clip-path: circle(0% at 90% 9%);
   transition: clip-path 0.8s;
-  transition: clip-path 0.8s, -webkit-clip-path 0.8s;
 }
 .aboutus__cards__person-card .profil-name {
   font-size: 2rem;
@@ -749,8 +745,9 @@ h1.company-name {
     padding: 8em 2em;
   }
   .aboutus__cards__person-card {
-    padding: 0 5em;
-    max-width: 400px;
+    padding: 0 2em;
+    min-width: 350px;
+    max-height: 500px;
   }
   .aboutus__cards__person-card .profil-name {
     font-size: 3.5rem;
